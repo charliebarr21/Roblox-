@@ -1,0 +1,31 @@
+{
+  "name": "RunAFireworkStand",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": { "$path": "src/ReplicatedStorage/Shared" },
+      "Remotes": { "$className": "Folder" },
+      "Assets": { "$className": "Folder" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "BuildingModels": { "$className": "Folder" },
+      "FireworkModels": { "$className": "Folder" },
+      "CustomerModels": { "$className": "Folder" },
+      "EmployeeModels": { "$className": "Folder" },
+      "DeliveryModels": { "$className": "Folder" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      }
+    }
+  }
+}
